@@ -1,8 +1,10 @@
-API для приложения Yatube
+API для приложения Yatube.
+
 
 Описание.
 
 API для приложения Yatube позволяет реализовывать базовый функционал для социальной сети:
+
 - Создавать, редактировать, удалять и просматривать публикации.
 - Просмтаривать и получать информацию о сообществах.
 - Комментрировать, просмматривать один или несколько комментариев.
@@ -14,30 +16,25 @@ Django 3.2.16
 djangorestframework 3.12.4
 Pillow 9.3.0
 
-Установка.
 
-Как запустить проект:
+Установка и запуск проекта.
+
 В терминале склонируйте репозиторий и перейдите в него:
-
 git clone git@github.com:AnnetaFM/api_final_yatube.git
 cd api_final_yatube
 
 Создайте и активируйте виртуальное окружение:
-
 python3 -m venv env
 source env/bin/activate
 
 Установите зависимости из файла requirements.txt:
-
 python3 -m pip install --upgrade pip
 pip install -r requirements.txt
 
 Выполните миграции:
-
 python3 manage.py migrate
 
 Запустите проект:
-
 python3 manage.py runserver
 
 
